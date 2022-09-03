@@ -1,0 +1,214 @@
+
+.card-primary.card-outline {
+    border-top: 3px solid #007bff;
+}
+
+.nav-item {
+    padding: 10px 0;
+}
+
+.nav-link.active > i > img {
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+
+/*-- icon input*/
+.input-icons i {
+    position: absolute;
+}
+
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icon {
+    padding: 10px;
+    min-width: 40px;
+    color: #5d6974;
+}
+
+.input-icons input {
+    padding-left: 35px;
+}
+
+/*--- datatables */
+.dataTables_wrapper {
+    padding-bottom: 10px;
+}
+
+.dataTables_wrapper > .dt-buttons {
+    display: none;
+}
+
+.dataTables_wrapper > .table thead th {
+    border: 0px;
+}
+
+/*--- paginations -- */
+.pagination > li > a {
+    border-radius: 70px !important;
+    font-size: 12px;
+    line-height: 1;
+    margin: 0 3px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    padding: 10px 12px;
+}
+
+.pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus {
+    color: #b9b9b9 !important;
+}
+
+#dataTableBuilder_previous a, #dataTableBuilder_next a {
+    width: auto !important;
+}
+
+/* ---- form ---- */
+label:not(.form-check-label):not(.custom-file-label) {
+    font-weight: 500;
+}
+
+.card_backgroud {
+    background-color: #F2F2F2;
+}
+
+.input-group-text {
+    background-color: #FFFFFF;
+}
+
+.btn_custom {
+    height: 35px;
+    min-width: 0px;
+    padding: 0.375rem 0.75rem;
+    background-color: #FFFFFF;
+}
+
+/* ---- roles ---- */
+.form-group > a.form_icon_remove {
+    float: right;
+    position: absolute;
+    right: 20px;
+    top: 12px;
+    color: #6c757d !important;
+}
+
+.form-group > a.form_icon_check {
+    float: right;
+    position: absolute;
+    right: 20px;
+    top: 7px;
+    color: #28a745 !important;
+}
+
+.form-group > a.color-gray {
+    color: #6c757d !important;
+    height: 48px;
+    padding: 12px 10px;
+}
+
+.form-group > a.color-gray:hover {
+    color: #6c757d !important;
+}
+
+.permission_border {
+    border: 2px solid;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    width: 144px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    float: left;
+    color: #343a40;
+    background-color: #ffffff;
+}
+
+.permission_border p {
+    padding-top: 16px;
+    margin-bottom: 0px;
+}
+
+.permission_border img {
+    width: 36px;
+    height: 36px;
+}
+
+.permission_select {
+    background-color: #20c999;
+}
+
+.setting_item {
+    width: 226px;
+    height: 166px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 40px;
+}
+
+.setting_item > p {
+    margin-top: 22px;
+    color: #343a40;
+    font-weight: 500;
+}
+
+.setting_item > img {
+    width: 38px;
+    height: 38px;
+}
+
+.select_per_page {
+    border-radius: 8px;
+    padding: 2px 14px;
+    background-color: #EBEBEB;
+    border: 0px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.info_data {
+    position: absolute;
+    bottom: 18px;
+    left: 10px;
+    font-size: 14px;
+}
+
+table.dataTable {
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125) !important;
+}
+
+table.dataTable tbody tr.selected {
+    background-color: #ffffff !important;
+}
+
+.paging_simple_numbers {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover
+{
+    border: 0px !important;
+    background: #E2E2E2 !important;
+    border-radius: 10px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover
+{
+    border: 0px !important;
+    background: #E2E2E2 !important;
+    border-radius: 10px;
+    color: #212529;
+}
+
+.dashboard i img {
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+
+.small-box > .inner {
+    padding: 30px;
+}
